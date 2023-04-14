@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace P1.Framework
+namespace AS.Framework
 {
 	public class SmartphoneInputController : BaseInputController
 	{

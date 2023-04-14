@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace P1.Framework
+namespace AS.Framework
 {
 	public abstract class BaseUpdater : MonoBehaviour,
 		IUpdater

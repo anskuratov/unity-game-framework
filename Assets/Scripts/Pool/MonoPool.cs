@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace P1.Framework
+namespace AS.Framework
 {
 	public class MonoPool<T> : IPool<T>
 		where T : MonoBehaviour, IReusable

@@ -1,6 +1,6 @@
 using System;
 
-namespace P1.Framework
+namespace AS.Framework
 {
 	public abstract class ClickableView : View,
 		IClickable
