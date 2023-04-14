@@ -1,0 +1,19 @@
+# IDE
+**/.idea/
+**/.vs/
+*.csproj
+*.sln
+*.csproj.DotSettings
+
+# Unity
+/Library/
+/Temp/
+/UserSettings/
+/obj/
+/Logs/
+/Build/
+CommonBurstAotSettings.json
+BurstAotSettings_*.json
+
+# Mac 
+.DS_Store
