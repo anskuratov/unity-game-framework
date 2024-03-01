@@ -6,21 +6,21 @@ namespace AS.Framework
 	public abstract class BaseUpdater : MonoBehaviour,
 		IUpdater
 	{
-		protected readonly List<IUpdatable> Updatables = new(4);
+		protected readonly List<IUpdatable> updatables = new(4);
 
 		public void Add(IUpdatable updatable)
 		{
-			if (Updatables.Contains(updatable) == false)
+			if (updatables.Contains(updatable) == false)
 			{
-				Updatables.Add(updatable);
+				updatables.Add(updatable);
 			}
 		}
 
 		public void Remove(IUpdatable updatable)
 		{
-			if (Updatables.Contains(updatable))
+			if (updatables.Contains(updatable))
 			{
-				Updatables.Remove(updatable);
+				updatables.Remove(updatable);
 			}
 		}
 	}

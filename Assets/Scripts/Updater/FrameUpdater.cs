@@ -6,7 +6,7 @@ namespace AS.Framework
 	{
 		public void Update()
 		{
-			foreach (var updatable in Updatables)
+			foreach (var updatable in updatables)
 			{
 				updatable.Update(Time.deltaTime);
 			}
