@@ -5,7 +5,7 @@ namespace AS.Framework
 {
 	public interface ICoroutines
 	{
-		Coroutine Run(IEnumerator enumerator);
+		Coroutine Run(IEnumerator routine);
 		void Stop(Coroutine coroutine);
 	}
 }
