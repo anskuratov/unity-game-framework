@@ -1,10 +1,10 @@
 ﻿namespace AS.Framework
 {
-    public enum VideoPlayerState
-    {
-        Stop,
-        Warmup,
-        Play,
-        Pause
-    }
+	public enum VideoPlayerState
+	{
+		Stop,
+		Warmup,
+		Play,
+		Pause
+	}
 }
